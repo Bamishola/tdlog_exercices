@@ -1,11 +1,15 @@
 import unittest
 
-from exo1 import Item
+from exo1 import premier
 
 
 class Exo1Test(unittest.TestCase):
 
     def test_item_construction(self):
-        item = Item(10, 20)
+        premier1 = premier(4)
 
-        self.assertEqual(20, item.weight)
+        self.assertFalse(premier1)
+
+
+if __name__ == '__main__':
+    unittest.main()

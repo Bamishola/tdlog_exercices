@@ -14,13 +14,3 @@ def premier(n):
         if n % i == 0:
             return False
     return True
-
-
-#creer une fonction pour afficher les nombre premier inferieur a 100
-def premier_inferieur(n):
-    for i in range(2, n):
-        if premier(i):
-            print(i)
-
-
-premier_inferieur(100)
