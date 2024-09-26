@@ -2,7 +2,6 @@ import unittest
 
 from exo1 import premier
 
-
 class Exo1Test(unittest.TestCase):
 
     def test_item_construction(self):
