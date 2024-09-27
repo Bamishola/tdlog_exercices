@@ -29,6 +29,5 @@ fixed_tests_False = (
 )
 """
 
-
 def solution(string, ending):
     return string.endswith(ending)

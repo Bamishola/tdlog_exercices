@@ -1,7 +1,5 @@
 import unittest
-
 from exo3 import processLines
-
 
 class TestExo3(unittest.TestCase):
     def test_input_1(self):
